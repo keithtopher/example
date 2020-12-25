@@ -1,1 +1,1 @@
-# example of something or other
+# example
