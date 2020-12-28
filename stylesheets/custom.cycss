@@ -1,10 +1,5 @@
 /* write your own stylesheet in this file */
 [ {
-  "format_version" : "1.0",
-  "generated_by" : "cytoscape-3.7.1",
-  "target_cytoscapejs_version" : "~2.1",
-  "title" : "default",
-  "style" : [ {
     "selector" : "node",
     "style" : {
       "font-size" : 20,
@@ -143,4 +138,3 @@
       "line-color" : "rgb(255,0,0)"
     }
   } ]
-} ]
