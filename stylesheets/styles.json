@@ -1,3 +1,4 @@
+[
 {
     "selector" : "node",
     "style" : {
@@ -137,3 +138,4 @@
       "line-color" : "rgb(255,0,0)"
     }
   }
+]
