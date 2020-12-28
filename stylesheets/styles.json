@@ -5,7 +5,7 @@
   "title" : "default",
   "style" : [ {
     "selector" : "node",
-    "css" : {
+    "style" : {
       "font-size" : 20,
       "font-family" : "SansSerif.plain",
       "font-weight" : "normal",
@@ -30,47 +30,47 @@
     }
   }, {
     "selector" : "node[degree = 2,500.00036645]",
-    "css" : {
+    "style" : {
       "background-color" : "rgb(153,52,4)"
     }
   }, {
     "selector" : "node[degree > 1,249.99988502][degree < 2,500.00036645]",
-    "css" : {
+    "style" : {
       "background-color" : "mapData(degree,1,249.99988502,2,500.00036645,rgb(254,153,41),rgb(153,52,4))"
     }
   }, {
     "selector" : "node[degree > -0.00015533][degree < 1,249.99988502]",
-    "css" : {
+    "style" : {
       "background-color" : "mapData(degree,-0.00015533,1,249.99988502,rgb(255,247,188),rgb(254,153,41))"
     }
   }, {
     "selector" : "node[degree > -600.00007767][degree < -0.00015533]",
-    "css" : {
+    "style" : {
       "background-color" : "mapData(degree,-600.00007767,-0.00015533,rgb(120,198,121),rgb(255,247,188))"
     }
   }, {
     "selector" : "node[degree > -1,200][degree < -600.00007767]",
-    "css" : {
+    "style" : {
       "background-color" : "mapData(degree,-1,200,-600.00007767,rgb(0,104,55),rgb(120,198,121))"
     }
   }, {
     "selector" : "node[degree = -1,200]",
-    "css" : {
+    "style" : {
       "background-color" : "rgb(0,104,55)"
     }
   }, {
     "selector" : "node[degree < -1,200]",
-    "css" : {
+    "style" : {
       "background-color" : "rgb(0,69,41)"
     }
   }, {
     "selector" : "node:selected",
-    "css" : {
+    "style" : {
       "background-color" : "rgb(255,255,0)"
     }
   }, {
     "selector" : "edge",
-    "css" : {
+    "style" : {
       "content" : "",
       "target-arrow-color" : "rgb(0,0,0)",
       "width" : 2.0,
@@ -88,57 +88,57 @@
     }
   }, {
     "selector" : "edge[weight > 445]",
-    "css" : {
+    "style" : {
       "width" : 1.0
     }
   }, {
     "selector" : "edge[weight = 445]",
-    "css" : {
+    "style" : {
       "width" : 10.0
     }
   }, {
     "selector" : "edge[weight > 1][weight < 445]",
-    "css" : {
+    "style" : {
       "width" : "mapData(weight,1,445,2.0,10.0)"
     }
   }, {
     "selector" : "edge[weight = 1]",
-    "css" : {
+    "style" : {
       "width" : 2.0
     }
   }, {
     "selector" : "edge[weight < 1]",
-    "css" : {
+    "style" : {
       "width" : 1.0
     }
   }, {
     "selector" : "edge[weight > 445]",
-    "css" : {
+    "style" : {
       "opacity" : 0.00392156862745098
     }
   }, {
     "selector" : "edge[weight = 445]",
-    "css" : {
+    "style" : {
       "opacity" : 1.0
     }
   }, {
     "selector" : "edge[weight > 1][weight < 445]",
-    "css" : {
+    "style" : {
       "opacity" : "mapData(weight,1,445,30,255)"
     }
   }, {
     "selector" : "edge[weight = 1]",
-    "css" : {
+    "style" : {
       "opacity" : 0.11764705882352941
     }
   }, {
     "selector" : "edge[weight < 1]",
-    "css" : {
+    "style" : {
       "opacity" : 0.00392156862745098
     }
   }, {
     "selector" : "edge:selected",
-    "css" : {
+    "style" : {
       "line-color" : "rgb(255,0,0)"
     }
   } ]
