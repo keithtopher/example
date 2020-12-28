@@ -25,7 +25,7 @@
     }
   }, {
     "selector" : "node[degree > 2,500.00036645]",
-    "css" : {
+    "style" : {
       "background-color" : "rgb(102,37,6)"
     }
   }, {
